@@ -1,0 +1,56 @@
+[
+  {
+    "name": "输入源",
+    "calc_type": "root",
+    "width": 180,
+    "height": 110,
+    "color": "#288C28",
+    "input_ports": 0,
+    "output_ports": 1
+  },
+  {
+    "name": "BUCK变换器",
+    "calc_type": "switching",
+    "width": 220,
+    "height": 120,
+    "color": "#2864B4",
+    "input_ports": 1,
+    "output_ports": 1
+  },
+  {
+    "name": "BOOST变换器",
+    "calc_type": "switching",
+    "width": 220,
+    "height": 110,
+    "color": "#B43C28",
+    "input_ports": 1,
+    "output_ports": 1
+  },
+  {
+    "name": "LDO稳压器",
+    "calc_type": "ldo",
+    "width": 180,
+    "height": 100,
+    "color": "#A07828",
+    "input_ports": 1,
+    "output_ports": 1
+  },
+  {
+    "name": "EFUSE",
+    "calc_type": "isolated",
+    "width": 180,
+    "height": 82,
+    "color": "#6450A0",
+    "input_ports": 1,
+    "output_ports": 1
+  },
+  {
+    "name": "负载",
+    "calc_type": "load",
+    "width": 180,
+    "height": 100,
+    "color": "#646464",
+    "input_ports": 1,
+    "output_ports": 0
+  }
+]

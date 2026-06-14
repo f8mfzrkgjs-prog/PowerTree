@@ -1,0 +1,92 @@
+{
+  "tree": {
+    "roots": [
+      {
+        "id": "92378602-a2ea-408e-b148-ee3378cef41f",
+        "component": {
+          "name": "输入源",
+          "comp_type": "root",
+          "calc_type": "root",
+          "input_voltage": 0.0,
+          "output_voltage": 12.0,
+          "input_current": 0.0,
+          "output_current": 0.0,
+          "power_loss": 0.0,
+          "efficiency": 100.0,
+          "max_current": 0.0,
+          "description": "",
+          "efficiency_mode": "fixed",
+          "efficiency_curve": []
+        },
+        "children": [
+          {
+            "id": "e7918d60-5cc5-4ebe-ad52-fee7e0eba246",
+            "component": {
+              "name": "BUCK变换器",
+              "comp_type": "switching",
+              "calc_type": "switching",
+              "input_voltage": 0.0,
+              "output_voltage": 3.3,
+              "input_current": 0.0,
+              "output_current": 10.0,
+              "power_loss": 0.0,
+              "efficiency": 88.0,
+              "max_current": 0.0,
+              "description": "",
+              "efficiency_mode": "fixed",
+              "efficiency_curve": []
+            },
+            "children": [
+              {
+                "id": "6796d0c1-2972-4b05-ac31-82e8c365bc4d",
+                "component": {
+                  "name": "负载",
+                  "comp_type": "load",
+                  "calc_type": "load",
+                  "input_voltage": 0.0,
+                  "output_voltage": 0.0,
+                  "input_current": 0.0,
+                  "output_current": 10.0,
+                  "power_loss": 0.0,
+                  "efficiency": 100.0,
+                  "max_current": 0.0,
+                  "description": ""
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "positions": {
+    "e7918d60-5cc5-4ebe-ad52-fee7e0eba246": {
+      "x": -40.0,
+      "y": -81.0,
+      "width": 220,
+      "height": 109.0,
+      "color": "#2864b4",
+      "input_ports": 1,
+      "output_ports": 1
+    },
+    "92378602-a2ea-408e-b148-ee3378cef41f": {
+      "x": -319.0,
+      "y": -73.0,
+      "width": 180,
+      "height": 92,
+      "color": "#288c28",
+      "input_ports": 0,
+      "output_ports": 1
+    },
+    "6796d0c1-2972-4b05-ac31-82e8c365bc4d": {
+      "x": 311.0,
+      "y": -69.0,
+      "width": 180,
+      "height": 92,
+      "color": "#646464",
+      "input_ports": 1,
+      "output_ports": 0
+    }
+  }
+}
